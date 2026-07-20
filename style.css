@@ -5,6 +5,11 @@
 }
 
 /* common styles  */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .common-button {
     font-weight: 700;
     color: #ffffffFF;
@@ -17,7 +22,6 @@
 /* navigation bar styles start  */
 header nav {
     display: flex;
-    max-width: 1200px;
     margin: 23px auto;
     justify-content: space-between;
     align-items: center;
@@ -68,3 +72,59 @@ header nav {
     font-size: 24px;
     margin-bottom: 79px;
 }
+
+/* meet-the-speaker-parent style start  */
+
+.meet-the-speaker-parent {
+    margin-top: 80px;
+}
+
+.meet-the-speaker-parent>h2 {
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 56px;
+}
+
+.meet-the-speaker-card-parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+
+
+.meet-the-speaker-card {
+    border: 1px solid #e5e7ebFF;
+    border-radius: 12px;
+
+}
+
+.meet-the-speaker-card img {
+    width: 100%;
+}
+
+.meet-the-speaker-card .subject {
+    margin-top: 12px;
+    font-size: 12px;
+    color: #2563ebFF;
+    font-weight: 600;
+}
+
+.meet-the-speaker-card h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.meet-the-speaker-card .profession {
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757FF;
+    margin-bottom: 24px;
+}
+
+.meet-the-speaker-card p,
+h2 {
+    padding-left: 24px;
+}
+
+/* meet the speker style end  */
