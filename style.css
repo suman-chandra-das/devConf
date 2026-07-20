@@ -206,3 +206,18 @@ footer {
 footer .social-icons {
     color: #2563ebFF;
 }
+
+/* faq styles start  */
+
+.faq h2 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.faq-item {
+    text-align: center;
+    margin: 40px auto;
+}
+
+/* faq style end  */
