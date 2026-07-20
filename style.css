@@ -190,3 +190,19 @@ header nav {
 }
 
 /* secure your sport section end style end  */
+
+/* footer style start  */
+footer {
+    background-color: rgb(31, 39, 48);
+}
+
+.footer-parent,
+.copyright-massage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .social-icons {
+    color: #2563ebFF;
+}
